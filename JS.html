@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Only HTML,JavaScript & CSS</title><br>
+	</head>
+	
+	<body>
+		<center>
+			<h1>HTML, JavaScript and basic CSS</h1>
+		</center>
+
+		<div style="float:left; width:450px">
+		<fieldset style="width: 400px; height:90px">
+			<legend>Date and Time</legend>
+			<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+				Show Date and Time
+			</button>
+			<p>
+				Show the date and time of today: 
+				<p1 id="demo"></p1>
+			</p>
+			</legend>
+		</fieldset>
+		</div>
+
+		<div style="float:left; width:450px">
+		<fieldset style="width:400px; height:90px">
+			<legend>Turn on or off</legend>
+			<center>
+			<button type="button" onclick="document.getElementById('det').src='pic_bulboff.gif'">Light off</button>
+			<img Id='det' src='pic_bulboff.gif' width="50px" height="50px">
+			<button type="button" onclick="document.getElementById('det').src='pic_bulbon.gif'">Light on</button>
+			</center>
+		</fieldset>
+		</div>
+		
+		<div style="float:left; width:450px">
+		<fieldset style="width: 400px; height:90px">
+			<legend>Change HTML</legend>
+			<button type="button" onclick="document.getElementById('demp').innerHTML= 'JavaScript Change the HTML'">Just Change</button>
+			<p id="demp">I am from HTML</p>
+		</fieldset>
+		</div>
+
+		<div style="float:left; width:450px">
+		<fieldset style="width:400px; height:90px">
+		<legend>Increase or Hide</legend>
+			<p id="dd">Hello World
+				<button type="button" onclick="document.getElementById('dd').style.fontSize='20px'">click to increase</button>
+			</p>
+
+			<p id="ds">Hide me!
+			<button type="button" onclick="document.getElementById('ds').style.display='none'">click & hide</button>
+			</p>
+
+			<button type="button" onclick="document.getElementById('dt').style.display='none'">click to hide HTML</button>
+			<p id="dt">Hide me!</p>
+		</fieldset>
+		</div>		
+
+	</body>
+</html>
